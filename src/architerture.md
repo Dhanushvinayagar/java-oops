@@ -365,6 +365,14 @@ Steps:
 6. CPU Executes Program
 ```
 
+### Garbage Collection
+
+- The JVM performs garbage collection to free up memory.   
+- Garbage collection is automatic.
+- Garbage collection is triggered when the heap memory is full.
+- finalize() - method is called when an object is garbage collected.
+- finalize() will be performed by the garbage collector internally.
+
 ### One-Line Summary
 
 **Java Source Code (.java) → Compiler (javac) → Bytecode (.class) → JVM → JIT Compiler → Machine Code → CPU Execution**
