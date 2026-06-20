@@ -7,6 +7,7 @@ import Static.StaticClass;
 import Static.OuterInnerClass;
 import Pillars.Inheritance.InvokeInheritance;
 import Pillars.Polymorphism.Polymorphism;
+import AccessModifiers.AccessModifiers;
 
 public class Main {
 
@@ -33,7 +34,9 @@ public class Main {
         // InvokeInheritance ih = new InvokeInheritance();
         // ih.invoke();
 
-        Polymorphism p1 = new Polymorphism();
-        p1.invoke();
+        // Polymorphism p1 = new Polymorphism();
+        // p1.invoke();
+
+        AccessModifiers.invoke();
     }
 }
