@@ -1,5 +1,6 @@
 // import - keyword to import the package
 import Singleton.InvokeSingleton;
+import AccessModifiers.AccessModifiers;
 import Classes.InvokeClasses;
 import Classes.Wrapper;
 import Classes.Final;
@@ -7,7 +8,8 @@ import Static.StaticClass;
 import Static.OuterInnerClass;
 import Pillars.Inheritance.InvokeInheritance;
 import Pillars.Polymorphism.Polymorphism;
-import AccessModifiers.AccessModifiers;
+import Pillars.Abstraction.InvokeAbstraction;
+import Interfaces.InvokeInterfaces;
 
 public class Main {
 
@@ -37,6 +39,10 @@ public class Main {
         // Polymorphism p1 = new Polymorphism();
         // p1.invoke();
 
-        AccessModifiers.invoke();
+        // AccessModifiers.invoke();
+
+        // InvokeAbstraction.invoke();
+
+        InvokeInterfaces.invoke();
     }
 }

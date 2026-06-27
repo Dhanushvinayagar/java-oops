@@ -10,7 +10,7 @@ import AccessModifiers.Bankxyz.BankXYZ;
 // 4. Default - accessible within the package 
 
 // Table
-
+//  This is applicable for variables, methods, constructors and  classes
 // Access Modifier | Class  | Package | Childclass(same pkg) | Childclass(diff pkg)    | Outside Package & Not ChildCLass
 // Public          | Y      | Y       | Y                    | Y                       | Y
 // Private         | Y      | N       | N                    | N                       | N

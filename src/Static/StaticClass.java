@@ -3,6 +3,8 @@ package Static;
 // Static is executed at compile time 
 // static is shared by all objects
 // there is only one copy of static variable and method which is shared by all objects
+// Constuctor connot static because constructor is related to object where as static is related to class
+// Order of execution : Static block -> Intialization block-> Constructor 
 
 class AreaClass {
     // static variable - It is created only once and it is shared by all objects
@@ -12,6 +14,11 @@ class AreaClass {
         // Run only once even if n number of objects are created
         // As soon as the class is loaded this block will be executed
         System.out.println("Static block always executed first");
+    }
+
+    // Intialization block - It is executed before constructor and after static block every time during object creation
+    {
+        System.out.println("Intialization block");
     }
 
     AreaClass() {

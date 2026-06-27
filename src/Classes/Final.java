@@ -1,5 +1,7 @@
 package Classes;
 
+// Final cannot be added to consurutor since it has to invoked at the time of object creation
+
 final class FinalClass {
     // final class cannot be extended
     // throws error if extended
