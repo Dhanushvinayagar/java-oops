@@ -10,6 +10,8 @@ import Pillars.Inheritance.InvokeInheritance;
 import Pillars.Polymorphism.Polymorphism;
 import Pillars.Abstraction.InvokeAbstraction;
 import Interfaces.InvokeInterfaces;
+import Generics.Generics;
+import Errorhandling.ExceptionClass;
 
 public class Main {
 
@@ -43,6 +45,10 @@ public class Main {
 
         // InvokeAbstraction.invoke();
 
-        InvokeInterfaces.invoke();
+        // InvokeInterfaces.invoke();
+
+        Generics.invoke();
+
+        // ExceptionClass.invoke();
     }
 }
